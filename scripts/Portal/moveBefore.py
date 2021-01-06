@@ -1,0 +1,1 @@
+ctx.Warp(ctx.PlayerMapId - 10, "west00")

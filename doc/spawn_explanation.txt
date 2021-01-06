@@ -1,0 +1,31 @@
+**Mob Spawning:**
+
+Hello again everyone.
+In this post I'm going to give a run-down of the logic that enforces the timed mob respawns.
+As most of you are aware, there are a number of mobs that have a respawn timer that is unrelated to the automatic respawn that the majority of mobs are bound to. Most notably, Headless Horseman and Bigfoot fall into this category.
+
+*__NOTE:__* I won't be listing all the mobs that are in this timer system, nor will I list any specific respawn times other than the one example I am about to give. This information is freely available in the WZ files, and unless stated otherwise, will not be edited by us. You can access this data using public WZ exploring tools.
+
+There are two different respawn timer formulas:
+ **- 1)**  First spawn -> happens the first time a map is loaded after the server has been (re)started.
+ **- 2)**  Every spawn after that
+
+__First Spawn Formula__
+First we define our variables. Note: MobTime is derived from the WZ files.
+```
+
+let RegenInterval  = (MobTime * 1000)        <- This represents the respawn time in milliseconds
+let BaseInterval   = (RegenInterval / 10)
+let AddedInterval  = (6 * BaseInterval + 1)  <- the +1 is to eliminate divide-by-zero exceptions
+```
+Initial respawn time is then calculated using the following formula. Note: This formula is GMS-like, which is why it's being used in the first place.
+```
+BaseInterval + Rand() % AddedInterval
+```
+Using an input of 21600 seconds (respawn time for Bigfoot) this number comes out to be between 1296 and 7776 seconds (or 22-130 minutes).
+This was too high in my opinion, so I decided to apply an additional formula to reduce this number for the first spawn.
+The modifying formula can be expressed as:
+```
+let ReducedInterval = (RegenInterval >> 5) <- to 40-243 seconds
+100-603
+```

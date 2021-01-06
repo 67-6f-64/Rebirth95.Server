@@ -1,0 +1,1 @@
+ctx.SayOk("I am dark and mysterious.. Most of the time~")

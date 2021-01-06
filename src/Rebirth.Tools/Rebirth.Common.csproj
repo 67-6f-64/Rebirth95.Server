@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Rebirth.Common</AssemblyName>
+    <RootNamespace>Rebirth.Common</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Rebirth.Executor\Rebirth.Executor.csproj" />
+    <ProjectReference Include="..\Rebirth.Network\Rebirth.Network.csproj" />
+  </ItemGroup>
+
+</Project>

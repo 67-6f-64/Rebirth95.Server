@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="26">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>28</ID>
+      <Description>"Character Related"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>FF0000</Color>
+      <GroupHeader>1</GroupHeader>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"Character X-Ish?"</Description>
+      <LastState Value="1693760" RealAddress="0019D774"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>0019D774</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"Character Y-Ish?"</Description>
+      <LastState Value="1" RealAddress="0019D778"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>0019D778</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>47</ID>
+      <Description>"Character base"</Description>
+      <LastState Value="C68754A1" RealAddress="00433360"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>433360</Address>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>48</ID>
+          <Description>"Character base"</Description>
+          <LastState Value="00000000" RealAddress="00C68754"/>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00C68754</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>49</ID>
+          <Description>"Character X"</Description>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00C68754</Address>
+          <Offsets>
+            <Offset>4680</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>53</ID>
+          <Description>"Character Y"</Description>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00C68754</Address>
+          <Offsets>
+            <Offset>4684</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>71</ID>
+          <Description>"Is on ground"</Description>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00C68754</Address>
+          <Offsets>
+            <Offset>4808</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>64</ID>
+          <Description>"Character Teleport"</Description>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00C68754</Address>
+          <Offsets>
+            <Offset>3B24</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>66</ID>
+          <Description>"Character Teleport X"</Description>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00C68754</Address>
+          <Offsets>
+            <Offset>3B2C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>65</ID>
+          <Description>"Character Teleport Y"</Description>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00C68754</Address>
+          <Offsets>
+            <Offset>3B30</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>68</ID>
+          <Description>"Some Teleport Counter"</Description>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00C68754</Address>
+          <Offsets>
+            <Offset>3B38</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>52</ID>
+          <Description>"Character Animation"</Description>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00C68754</Address>
+          <Offsets>
+            <Offset>640</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>50</ID>
+          <Description>"Character Frame"</Description>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00C68754</Address>
+          <Offsets>
+            <Offset>648</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>51</ID>
+          <Description>"Character Frame Animation Time"</Description>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00C68754</Address>
+          <Offsets>
+            <Offset>64C</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>54</ID>
+      <Description>"Mob base"</Description>
+      <LastState Value="8B 0D B8 87 C6 00 E8 F1 54 F0 FF 8B F0 89 74 24 34 3B F7 0F 84 3F 0A 00 00 8B" RealAddress="007528C4"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>26</ByteLength>
+      <Address>7528C4</Address>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>55</ID>
+          <Description>"Mob base"</Description>
+          <LastState Value="00000000" RealAddress="00C687B8"/>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00C687B8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>56</ID>
+          <Description>"Mob Count"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00C687B8</Address>
+          <Offsets>
+            <Offset>24</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>63</ID>
+          <Description>"1st mob X position"</Description>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00C687B8</Address>
+          <Offsets>
+            <Offset>60</Offset>
+            <Offset>28</Offset>
+            <Offset>10c</Offset>
+            <Offset>4</Offset>
+            <Offset>28</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>67</ID>
+          <Description>"1st mob Y position"</Description>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00C687B8</Address>
+          <Offsets>
+            <Offset>64</Offset>
+            <Offset>28</Offset>
+            <Offset>10c</Offset>
+            <Offset>4</Offset>
+            <Offset>28</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>57</ID>
+      <Description>"Wall Base"</Description>
+      <LastState Value="8B 1D B0 87 C6 00 8B 43 38 8B BE 78 03 00 00 85 C0 74 03 8B 40 FC 48 3B F8 76 16 6A" RealAddress="0099A9F9"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>28</ByteLength>
+      <Address>Ariku95.exe+59A9F9</Address>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>58</ID>
+          <Description>"Wall Base"</Description>
+          <LastState Value="34 A9 F7 5C 00 00 00 00 00 00 00 00 B4 AB 14 01 90 AB 14 01 6C AB 14 01 38 AB 14 01" RealAddress="00C687B0"/>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>Array of byte</VariableType>
+          <ByteLength>28</ByteLength>
+          <Address>00C687B0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>59</ID>
+          <Description>"Left Wall"</Description>
+          <LastState Value="-325" RealAddress="5CF7A958"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00C687B0</Address>
+          <Offsets>
+            <Offset>24</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>62</ID>
+          <Description>"Top Wall"</Description>
+          <LastState Value="-2158" RealAddress="5CF7A95C"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00C687B0</Address>
+          <Offsets>
+            <Offset>28</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>61</ID>
+          <Description>"Right Wall"</Description>
+          <LastState Value="475" RealAddress="5CF7A960"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00C687B0</Address>
+          <Offsets>
+            <Offset>2C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>60</ID>
+          <Description>"Bottom Wall"</Description>
+          <LastState Value="192" RealAddress="5CF7A964"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00C687B0</Address>
+          <Offsets>
+            <Offset>30</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>72</ID>
+      <Description>"Item Base"</Description>
+      <LastState Value="89 0D 58 AC C6 00 EB 06 89 3D 58 AC C6 00 8D 4E 08 C7 06" RealAddress="00512939"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>19</ByteLength>
+      <Address>Ariku95.exe+112939</Address>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>73</ID>
+          <Description>"Wall Base"</Description>
+          <LastState Value="00000000" RealAddress="00C6AC58"/>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00C6AC58</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>74</ID>
+          <Description>"Item Count"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00C6AC58</Address>
+          <Offsets>
+            <Offset>28</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>75</ID>
+          <Description>"First Item"</Description>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00C6AC58</Address>
+          <Offsets>
+            <Offset>4</Offset>
+            <Offset>2C</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>77</ID>
+      <Description>"No description"</Description>
+      <LastState Value="FF 15 5C D9 C6 00 85 C0 75 4E 8D 4C 24 20 C7 44 24 40 FF" RealAddress="005119FD"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>19</ByteLength>
+      <Address>Ariku95.exe+1119FD</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>23</ID>
+      <Description>"Full Godmode"</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>//50Sec Godmode v92
+//TheonlyTazz
+[Enable]
+0093443C:
+je 00936533
+[Disable]
+0093443C:
+jne 00936533
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>8</ID>
+      <Description>"Full Map Attack"</Description>
+      <LastState/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>//FMA v92
+//TheonlyTazz
+[enable]
+6576fe: // 75 ? 43 83 C5 ? EB ? 8B 44 24 ? 8B 4C 24 ? 89 34 81
+je 00657706
+
+[disable]
+6576fe:
+jne 00657706
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>7</ID>
+      <Description>"Fusion Attack"</Description>
+      <LastState/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>//Fusion Attack
+//EMS v92
+//updated by TheonlyTazz
+[Enable]
+alloc(Hook,512)
+label(Return)
+
+006582DE:
+jmp Hook
+db 90 90 90
+Return:
+
+Hook:
+mov [ecx+eax*4],esi
+inc eax
+cmp eax,[esp+64]
+jl Hook
+mov [esp+18],eax
+jmp Return
+
+[Disable]
+dealloc(Hook)
+
+006582DE:
+mov [edx+eax*4],edi
+inc eax
+mov [esp+18],eax
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"Generic No Delay"</Description>
+      <LastState/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>//GND v92
+//TheonlyTazz
+[ENABLE]
+00CF4423:
+db 74
+0089d928:
+db 00
+[DISABLE]
+00CF4423:
+db 75
+0089d928:
+db 06
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>5</ID>
+      <Description>"Item Vac"</Description>
+      <LastState/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>//TheonlyTazz
+[Enable]
+Alloc(Hook,128)
+label(DoItemVac)
+
+registersymbol(ItemVac_X)
+alloc(ItemVac_X,8)
+registersymbol(ItemVac_Y)
+alloc(ItemVac_Y,8)
+registersymbol(Save)
+alloc(Save, 2)
+
+ItemVac_X:
+dd #00000000
+
+ItemVac_Y:
+dd #00000000
+
+Save:
+db 01
+
+004BDDE4: // E8 ? ? ? ? 8B C8 8B 44 24 ? 89 38 5F 89 48 ? 5E C2 04 00 CC CC CC CC CC CC CC 56 - 4th result
+jmp Hook
+
+Hook:
+cmp [Save], 01
+jne DoItemVac
+mov [Save], 00
+
+DoItemVac:
+push eax
+push ecx
+mov eax, [00C68754] // Char Base
+mov ecx, [eax+4680] // X Offset
+mov [ItemVac_X], ecx
+mov ecx, [eax+4684] // Y Offset
+mov [ItemVac_Y], ecx
+pop ecx
+pop eax
+call 0042B750 //Original Opcode
+mov ecx,eax
+mov eax,[esp+0C]
+push ecx
+mov ecx, [ItemVac_X]
+mov [eax],ecx //X
+mov ecx, [ItemVac_Y]
+mov [eax+04],ecx //Y
+pop ecx
+pop edi
+pop esi
+ret 0004
+
+
+[Disable]
+dealloc(ItemVac_X)
+dealloc(ItemVac_Y)
+dealloc(Save)
+dealloc(Hook)
+unregistersymbol(ItemVac_X)
+unregistersymbol(ItemVac_Y)
+unregistersymbol(Save)
+
+004BDDE4:
+call 0042B750
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>22</ID>
+      <Description>"Kami Vac"</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>// aasdf
+// Kami + universal aircheck...
+
+[ENABLE]
+alloc(KamVac,128)
+alloc(KamiRangeX,4)
+alloc(KamiRangeY,4)
+alloc(KamiEnabled, 4)
+registersymbol(KamiRangeX)
+registersymbol(KamiRangeY)
+registersymbol(KamiEnabled)
+label(KamVacRet)
+label(EndKami)
+
+004BDDE4:
+jmp KamVac
+KamVacRet:
+
+KamVac:
+pushad
+cmp [KamiEnabled], 0
+je EndKami
+mov esi,[00C687B8] // Mob Base
+cmp [esi+24],0 // Mob Count
+je EndKami // Exit out if there are no mobs
+mov eax,[00C687B8] // Mob Base
+mov eax,[eax+28] // Mob Struct 1 (static)
+mov eax,[eax+04] // Mob Struct 2 (static)
+mov eax,[eax+10C] // Mob Struct 3
+mov eax,[eax+28] // Mob Struct 4
+mov ecx,[eax+60] // Mob X
+sub ecx,[KamiRangeX]
+mov eax,[eax+64] // Mob Y
+sub eax,[KamiRangeY]
+mov ebx,[00C68754]
+mov [ebx+3B2C],ecx // Teleport X
+mov [ebx+3B30],eax // Teleport Y
+mov [ebx+3B24],01 // Toggle Telepot
+EndKami:
+popad
+call 0042B750
+jmp KamVacRet
+
+//----------- Settings-----------
+
+KamiRangeX:
+dd 00 // X = 30
+
+KamiRangeY:
+dd 00 // Y = 0
+
+KamiEnabled:
+dd 00
+
+[DISABLE]
+004BDDE4:
+call 0042B750
+
+dealloc(KamVac)
+dealloc(KamiRangeX)
+dealloc(KamiRangeY)
+unregistersymbol(KamiRangeX)
+unregistersymbol(KamiRangeY)
+
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>69</ID>
+          <Description>"Kami Range X"</Description>
+          <LastState Value="0" RealAddress="210C0080"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>KamiRangeX</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>70</ID>
+          <Description>"Kami Range Y"</Description>
+          <LastState Value="0" RealAddress="210C0084"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>KamiRangeY</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>81</ID>
+          <Description>"Kami Enabled"</Description>
+          <LastState Value="0" RealAddress="210C0088"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>KamiEnabled</Address>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>112</Key>
+              </Keys>
+              <Value>1</Value>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>113</Key>
+              </Keys>
+              <Value>0</Value>
+              <ID>1</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>21</ID>
+      <Description>"Jump un. right"</Description>
+      <LastState/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+//Jump un. right
+// Credits to Ation
+//EMS v91
+//updated by AncientLove
+00D9F5AF: //0F 84 1B 01 00 00 83 BE 3C 01 00 00 00 0F 84 0E
+jmp 00D9F82E //8B 8E ? ? 00 00 6A 01 E8 ? ? ? FF EB //jp 00D9FF4D
+nop
+
+[Disable]
+00D9F5AF:
+db 0F 84 1B 01 00 00
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>10</ID>
+      <Description>"Mob Disarm"</Description>
+      <LastState/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>//Mob Disarm v92
+[Enable]
+0076959A:
+db 0F 84
+[Disable]
+0076959A:
+db 0F 85
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>19</ID>
+      <Description>"Item Filter"</Description>
+      <LastState/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+Alloc(ItemFilter,128)
+Alloc(Type,4)
+Alloc(Meso,4)
+Alloc(GoodItems,2048)
+Alloc(BadItems,2048)
+Label(FilterRet)
+Label(AcceptFilter)
+Label(RejectFilter)
+Label(MesoFilter)
+Label(EndFilter)
+Label(ifAccept)
+Label(ifReject)
+Label(NoMatch)
+RegisterSymbol(Type)
+RegisterSymbol(Meso)
+
+51678D:
+   jmp    ItemFilter
+   FilterRet:
+ItemFilter:
+   push   ebx
+   mov    ebx,[Meso]
+   cmp    eax,ebx
+   jle    MesoFilter
+   cmp    dword ptr [Type],00
+   je     RejectFilter
+   cmp    dword ptr [Type],01
+   je     AcceptFilter
+
+AcceptFilter:
+   mov    ebx,GoodItems
+ifAccept:
+   cmp    eax,[ebx]
+   je     EndFilter
+   cmp   [ebx],00
+   je     NoMatch
+   add    ebx,04
+   jmp    ifAccept
+
+RejectFilter:
+   mov    ebx,BadItems
+ifReject:
+   cmp    eax,[ebx]
+   je     NoMatch
+   cmp   [ebx],00
+   je     EndFilter
+   add    ebx,04
+   jmp    ifReject
+
+NoMatch:
+   mov    eax,00
+EndFilter:
+   pop    ebx
+   mov    ecx,edi
+   mov   [esi+34],eax
+   jmp    FilterRet
+
+MesoFilter:
+   mov   [esi+30],00
+   jmp    EndFilter
+
+Type:
+   dd     01
+
+GoodItems:
+   dd    #4006001 //Summoning Stone
+   dd    #5062000 // Miracle cube
+   dd    #4031530 // Nexon Prepaid 100
+   dd    #4031531 // Nexon Prepaid 250
+   dd     00
+
+BadItems:
+   dd    #4006001 //Summoning Stone
+   dd    #4007001 //Magic Powder(White)
+   dd     00
+
+Meso:
+   dd    #1000
+
+[Disable]
+51678D: //[4th result] 8B CF 89 46 ? E8 ? ? ? ? 8B CF 89 46 ? E8
+   mov    ecx,edi
+   mov   [esi+34],eax
+
+Dealloc(ItemFilter)
+Dealloc(Type)
+Dealloc(Meso)
+Dealloc(GoodItems)
+Dealloc(BadItems)
+UnregisterSymbol(Type)
+UnregisterSymbol(Meso)
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>29</ID>
+      <Description>"Mob Related"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>FF0000</Color>
+      <GroupHeader>1</GroupHeader>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>34</ID>
+      <Description>"New Aggro Method"</Description>
+      <LastState/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>//Made by xScriptZx
+//EMS 92.1
+//New Aggro Method
+
+[ENABLE]
+alloc(Aggro,32)
+alloc(Follow,64)
+
+00750B23:
+jmp Aggro
+nop
+
+Aggro:
+mov [ecx+00000300],eax
+jmp 00750B2F
+
+0055A9CF:
+jmp Follow
+nop
+
+Follow:
+pop eax
+mov [eax],edi
+pop edi
+mov [eax+04],ecx
+jmp 0055A9D5
+
+[DISABLE]
+00750B23:
+cmp [ecx+00000300],eax
+
+0055A9CF:
+mov [eax],edi
+pop edi
+mov [eax+04],ecx
+pop esi
+
+dealloc(Aggro)
+dealloc(Follow)
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>13</ID>
+      <Description>"No Backgrounds+Clouds"</Description>
+      <LastState/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+//No Backgrounds+Clouds
+//Created by Tryst
+//EMS v92
+//updated by TheonlyTazz
+00718D92: //E8 ?? ?? ?? ?? 8B 06 8B 48 ?? 56 C6 45 ?? ?? FF D1 8B 75 ?? 43
+db 90 90 90 90 90
+
+0071769B: // E8 ?? ?? ?? ?? 8B 06 8B 48 08 56 C7 44 24 34 FF FF FF FF FF D1 8B 4C 24 28 64 89 0D 00 00 00 00 59 5F 5E 5D 83 C4 24
+db 90 90 90 90 90
+
+[Disable]
+00718D92: // "CMapLoadable_RestoreBack"
+call 00713FA0// "CMapLoadable_MakeBack" //Original Opcode
+
+0071769B:
+call 0070D750
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>11</ID>
+      <Description>"No Damage Shown"</Description>
+      <LastState/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>//No DMG Shown v92
+//TheonlyTazz
+
+[Enable]
+0046A240:
+db 00
+00751B6B:
+db 90 E9
+007492BA:
+db EB
+007492C7:
+db EB
+007492E2:
+db EB
+[Disable]
+0046A240:
+db 1F
+00751B6B:
+db 0F 84
+007492BA:
+db 7E
+007492C7:
+db 75
+007492E2:
+db 7D
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>31</ID>
+      <Description>"No Fadestages"</Description>
+      <LastState/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>// No Fadestages
+// EMS V92.1 TheonlyTazz
+[ENABLE]
+
+008B52A0: //6A ?? 68 ?? ?? ?? ?? 64 A1 ?? ?? ?? ?? 50 83 EC ?? 53 55 56 57 A1 ?? ?? ?? ?? 33 C4 50 8D 44 24 ?? 64 A3 ?? ?? ?? ?? A1 ?? ?? ?? ??
+//4th result
+db C2 04 00
+
+008B5750: //6A ?? 68 ?? ?? ?? ?? 64 A1 ?? ?? ?? ?? 50 83 EC ?? 53 55 56 57 A1 ?? ?? ?? ?? 33 C4 50 8D 84 24 ?? ?? ?? ?? 64 A3 ?? ?? ?? ?? A1 ?? ?? ?? ?? 85 C0
+db C2 04 00
+
+
+[DISABLE]
+008B52A0:
+db 6A FF 68
+
+008B5750:
+db 6A FF 68
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"No Knock Back"</Description>
+      <LastState/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>//No KB
+//EMS v92
+//TheonlyTazz
+[Enable]
+00924A7B: //01 00 00 00 D8 D1 DF E0 F6 C4 05 7A 28 DC 91
+db 00
+
+[Disable]
+00924A7B:
+db 01
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>25</ID>
+      <Description>"No Mob KB"</Description>
+      <LastState/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>//No Mob KB v92
+[Enable]
+00924A7B:
+db 00
+
+[Disable]
+00924A7B:
+db 04
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>37</ID>
+      <Description>"No description"</Description>
+      <LastState Value="0" RealAddress="5919C4F4"/>
+      <VariableType>Double</VariableType>
+      <Address>5919C4F4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>38</ID>
+      <Description>"No description"</Description>
+      <LastState RealAddress="6052F00E"/>
+      <VariableType>String</VariableType>
+      <Length>19</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>6052F00E</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"No description"</Description>
+      <LastState Value="0" RealAddress="594AFE70"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>594AFE70</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>45</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>4b23e7</Address>
+      <Offsets>
+        <Offset>0x00000CD4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>46</ID>
+      <Description>"No description"</Description>
+      <LastState Value="C68E40A1" RealAddress="004B23E7"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>Ariku95.exe+B23E7</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>24</ID>
+      <Description>"PIC Typer"</Description>
+      <LastState/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>//PIC Typer v92
+//TheonlyTazz
+[Enable]
+008B2BC6://CSoftKeyboardDlg::OnKey
+db 90 E9
+008B21D5://CSoftKeyboardDlg::OnCreate
+db 00
+008B21EE://CSoftKeyboardDlg::OnCreate
+call 50D440//CCtrlEdit::CCtrlEdit
+
+[Disable]
+008B2BC6:
+db 0F 84
+008B21D5:
+db 01
+008B21EE:
+call 510FD0//CCtrlEditEx::CCtrlEditEx
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>32</ID>
+      <Description>"Passless Logo skipper"</Description>
+      <LastState/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[enable]
+// ByPassless Logo skipper
+// Credits Redwinter
+// Additional Credits Luna (bypass version)
+// EMS v92.1 TheonlyTazz
+01177AC0: // 4byte search for the addy the disable aob gives
+dd 006FD250 //6A FF 68 ?? ?? ?? 00 64 A1 00 00 00 00 50 51 A1 ?? ?? ?? ?? 33 C4 50 8D 44 24 08 64 ?? 00 00 00 00 A1 ?? ?? ?? ?? 85 C0 75 ?? 68 ?? ?? ?? ?? E8
+
+
+[disable]
+01177AC0:
+dd 006FEFA0 //80 79 ? 00 75 ? e9
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>27</ID>
+      <Description>"Perfect Loot"</Description>
+      <LastState/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>//Perfect Loot v92
+//TheonlyTazz
+[Enable]
+00DEB99D:
+db EB 07
+0055B965:
+db 25
+00445C49:
+db 00 00
+[Disable]
+00DEB63D:
+db 6A 01
+0055B965:
+db 0D
+00445C49:
+db BC 02
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>26</ID>
+      <Description>"Pin Typer"</Description>
+      <LastState/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>//Pin Typer v92
+//TheonlyTazz
+[Enable]
+006EB556://0F 85 ?? ?? ?? ?? 68 ?? ?? ?? ?? B9 ?? ?? ?? ?? E8 ?? ?? ?? ?? 89 44 24 ?? C6 44 24 ?? ?? 85 C0 0F 84 ?? ?? ?? ?? 6A ?? 8B C8
+db 0F 84
+006ECC37://0F 85 ?? ?? ?? ?? 68 ?? ?? ?? ?? B9 ?? ?? ?? ?? E8 ?? ?? ?? ?? 89 44 24 ?? C7 44 24 ?? ?? ?? ?? ?? 85 C0 0F 84 ?? ?? ?? ?? 6A ?? 8B C8
+db 0F 84
+006EC6EE://CPinCodeDlg::OnCreate
+db 90 90 90 90 90 90 90
+[Disable]
+006EB556:
+db 0F 85
+006ECC37:
+db 0F 85
+006EC6EE:
+db 89 AC 24 A0 00 00 00
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>36</ID>
+      <Description>"SS Mouse Fly"</Description>
+      <LastState/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[enable]
+alloc(hook,1024)
+alloc(teletime,4)
+label(return)
+label(exit)
+
+00D11B39: //e8 ? ? ? ? 8b d8 8d be ? ? 00 00 8d 4f
+jmp hook
+return:
+
+teletime:
+dd 0
+
+hook:
+call 00D51480 //orig opcode (GetTime)
+pushad
+//looking for the mouse click
+mov ebx,[0144D1A0] //mouse ptr
+// uncomment next 2 lines for mouse click fly
+//cmp dword ptr[ebx+9E0],0c
+//jne exit
+
+//get mouse locations
+mov ebx,[ebx+978]
+mov eax,[ebx+8C]
+mov ebx,[ebx+90]
+
+//encrypt and set tele offsets
+lea ecx,[esi+7af0] // no aob yet i usually just scroll down and match locations from last patch
+push eax
+call 00406E40 //cc 56 8b f1 8b 0d
+
+lea ecx, [esi+7ae4]
+push ebx
+call 00406E40
+
+lea ecx, [esi+7ACC]
+push 00000001 //Probably dont need all the proceeding 0's but wthell
+call 00406E40
+
+exit:
+popad
+jmp return
+
+[disable]
+00D11B39:
+call 00D51480
+
+dealloc(hook)
+dealloc(teletime)
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>16</ID>
+      <Description>"Unlimited Attack 2"</Description>
+      <LastState/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>//Credits to M1sniper for creating
+//V92.1
+//TheonlyTazz
+[ENABLE]
+alloc(UA,200)
+label(exit)
+
+004e8f8f:
+jmp UA
+nop
+
+
+UA:
+mov [eax],edi //orig code
+
+push ebx
+mov ebx,[1448298] // Char Base Pointer
+cmp dword ptr [ebx+7D28], 5A // Attack Count offset
+jl exit
+add [eax],08
+
+exit:
+pop ebx
+pop edi
+mov [eax+04],ecx
+jmp 004e8f8f+5
+
+
+[DISABLE]
+004e8f8f: //89 38 5F 89 48 04 5E C2 ? ? CC - 3rd result
+mov [eax],edi
+pop edi
+mov [eax+04],ecx
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>6</ID>
+      <Description>"Unlimited Kaiser Morph"</Description>
+      <LastState/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>//Unlimited Kaiser Morph
+//EMS v92
+//updated by TheonlyTazz
+[Enable]
+00D327E7: //74 ? 81 FE ? ? ? ? 75 ? 8D ?? 24 1C 68
+db EB 2E
+
+00D33198: //7D ? 8D ? ? ? 68 ?? 24 00
+db EB
+
+[Disable]
+00D327E7:
+db 74 08
+
+00D33198:
+db 7D
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>20</ID>
+      <Description>"Walk Unrandomize Right"</Description>
+      <LastState/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+//Walk Unrandomize Right
+// Credits to Ation
+//EMS v92
+//updated by AncientLove
+00990870: // 0F 8F ? ? 00 00 83 BE ? ? 00 00 00 0F 84
+jmp 00990895 // 6A 01 EB ? DB 86 ? ? 00 00 DC 5E
+
+[Disable]
+00990870:
+jne 00990895
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>76</ID>
+      <Description>"Vac Right"</Description>
+      <LastState Value="75 23 DC 11 DF E0 F6 C4 41 75 3F D9 C9" RealAddress="00990870"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>13</ByteLength>
+      <Address>Ariku95.exe+590870</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>80</ID>
+      <Description>"No description"</Description>
+      <LastState Value="FF 15 5C D9 C6 00 85 C0 75 4E 8D 4C 24 20 C7 44 24 40 FF" RealAddress="005119FD"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>19</ByteLength>
+      <Address>Ariku95.exe+1119FD</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+  <DisassemblerComments>
+    <DisassemblerComment>
+      <Address>"Ariku95.exe"+86668</Address>
+      <Comment>call 0047E2C0
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Ariku95.exe"+2BC8D1</Address>
+      <Comment>call 006AE830
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Ariku95.exe"+5336BE</Address>
+      <Comment>Prevents jumping again if already in the air
+</Comment>
+    </DisassemblerComment>
+  </DisassemblerComments>
+</CheatTable>

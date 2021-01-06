@@ -1,0 +1,222 @@
+Generic scrolls:
+2049004 Clean Slate Scroll 10%
+2049005 Clean Slate Scroll 20% 
+2049112 King Pepe's 100% Scroll for Weapons
+
+
+2022336		Secret Box
+	2002026 -> Ginger Ale
+	2001521 -> Warrior Pill
+	2001522 -> Magic Pill
+	2002017 -> Warrior Elixir
+	2002018 -> Wizard Elixir
+	2001517 -> Magic Potion
+	2001519 -> Warrior Potion
+	2022459 -> Cassandra's Reward 1           For 1 hour, Meso Drop Rate +30%.
+	2022460 -> Cassandra's Reward 2           For 40 minutes, Meso Drop Rate +50%.
+	2022461 -> Cassandra's Reward 3           For 30 min., Meso Drop Rate 2x.
+
+2022662 	Evan's Paper Box			A paper box containing a gift celebrating Evan's launch. You can open it by double-clicking on it.
+	1382009 Maple Staff x 1 (2.00%)
+	1382012 Maple Lama Staff x 1 (1.00%)
+	1372034 Maple Shine Wand x 1 (2.00%)
+	1382039 Maple Wisdom Staff x 1 (1.00%)
+	Scroll for Wand for Magic Attack 100% x 1 (14.00%)
+	Scroll for Wand for Magic Attack 60% x 1 (5.00%)
+	Scroll for Wand for Magic Attack 10% x 1 (18.00%)
+	Scroll for Staff for Magic Attack 100% x 1 (14.00%)
+	Scroll for Staff for Magic Attack 60% x 1 (5.00%)
+	Scroll for Staff for Magic Attack 10% x 1 (18.00%)
+	
+2022564 	Aran Paper Box				A paper box containing a special present commemorating the Aran release. It is well-packed, so you may need to #cdouble-click# to open.
+	1442080 Steel Polearm x 1
+	1442051 Maple Karstan x 1
+	Scroll for Pole Arm for ATT 100% x 1
+	Scroll for Pole Arm for ATT 60% x 1
+	Scroll for Pole Arm for ATT 10% x 1
+	
+2022652		Dragon Rider's Warrior Box	A box dropped by the Dragon Rider. Contains a Warrior weapon. #cYou can open it by double-clicking on it.
+Green Valhalla Helmet Green Valhalla Helmet x 1 (3.00%)
+Dark Valhalla Helmet Dark Valhalla Helmet x 1 (3.00%)
+Blue Neos (M) Blue Neos (M) x 1 (1.00%)
+Black Neos (M) Black Neos (M) x 1 (1.00%)
+Purple Lucida (F) Purple Lucida (F) x 1 (1.00%)
+Dark Lucida (F) Dark Lucida (F) x 1 (1.00%)
+Blue Neos Pants (M) Blue Neos Pants (M) x 1 (1.00%)
+Black Neos Pants (M) Black Neos Pants (M) x 1 (1.00%)
+Purple Lucida Skirt (F) Purple Lucida Skirt (F) x 1 (1.00%)
+Dark Lucida Skirt (F) Dark Lucida Skirt (F) x 1 (1.00%)
+Blue Crescent Boots Blue Crescent Boots x 1 (3.00%)
+Dark Crescent Boots Dark Crescent Boots x 1 (3.00%)
+Blue Korben Blue Korben x 1 (3.00%)
+Dark Korben Dark Korben x 1 (3.00%)
+Sword Earrings Sword Earrings x 1 (2.00%)
+Blue Hoflon Blue Hoflon x 1 (2.00%)
+Sirius Cape Sirius Cape x 1 (2.00%)
+Sparta Sparta x 1 (1.00%)
+Tomahawk Tomahawk x 1 (1.00%)
+Battle Hammer Battle Hammer x 1 (1.00%)
+The Beheader The Beheader x 1 (1.00%)
+Tavar Tavar x 1 (1.00%)
+Golden Smith Hammer Golden Smith Hammer x 1 (1.00%)
+Pinaka Pinaka x 1 (1.00%)
+Zedbug Zedbug x 1 (1.00%)
+Askaron Askaron x 1 (1.00%)
+Bellum Spear Bellum Spear x 1 (1.00%)
+Machlear Machlear x 1 (1.00%)
+
+2022653 	Dragon Rider's Magician Box	A box dropped by the Dragon Rider. Contains a Magician weapon. #cYou can open it by double-clicking on it.
+Blue Varr Hat Blue Varr Hat x 1 (2.00%)
+Red Varr Hat Red Varr Hat x 1 (2.00%)
+Dark Varr Hat Dark Varr Hat x 1 (2.00%)
+Green Varuna (M) Green Varuna (M) x 1 (1.00%)
+Blue Varuna (M) Blue Varuna (M) x 1 (1.00%)
+Red Varuna (M) Red Varuna (M) x 1 (1.00%)
+Dark Varuna (M) Dark Varuna (M) x 1 (1.00%)
+Green Bazura (F) Green Bazura (F) x 1 (1.00%)
+Blue Bazura (F) Blue Bazura (F) x 1 (1.00%)
+Red Bazura (F) Red Bazura (F) x 1 (1.00%)
+Dark Bazura (F) Dark Bazura (F) x 1 (1.00%)
+Blue Varr Shoes Blue Varr Shoes x 1 (2.00%)
+Red Varr Shoes Red Varr Shoes x 1 (2.00%)
+Dark Varr Shoes Dark Varr Shoes x 1 (2.00%)
+Blue Ciara Blue Ciara x 1 (2.00%)
+Red Ciara Red Ciara x 1 (2.00%)
+Purple Ciara Purple Ciara x 1 (2.00%)
+Sword Earrings Sword Earrings x 1 (3.00%)
+Sirius Cape Sirius Cape x 1 (3.00%)
+Blue Marine Blue Marine x 1 (4.00%)
+Dimon Wand Dimon Wand x 1 (4.00%)
+Laevateinn Laevateinn x 1 (3.00%)
+
+2022654 	Dragon Rider's Thief Box	A box dropped by the Dragon Rider. Contains a Thief weapon. #cYou can open it by double-clicking on it.
+Blue Canal Hood Blue Canal Hood x 1 (2.00%)
+Red Canal Hood Red Canal Hood x 1 (2.00%)
+Dark Canal Hood Dark Canal Hood x 1 (2.00%)
+Green Katinas (Male) Green Katinas (Male) x 1 (1.00%)
+Blue Katinas (Male) Blue Katinas (Male) x 1 (1.00%)
+Red Katinas (Male) Red Katinas (Male) x 1 (1.00%)
+Dark Katinas (Male) Dark Katinas (Male) x 1 (1.00%)
+Green Katte (Female) Green Katte (Female) x 1 (1.00%)
+Blue Katte (Female) Blue Katte (Female) x 1 (1.00%)
+Red Katte (Female) Red Katte (Female) x 1 (1.00%)
+Dark Katte (Female) Dark Katte (Female) x 1 (1.00%)
+Green Katina Boots Green Katina Boots x 1 (2.00%)
+Blue Katina Boots Blue Katina Boots x 1 (2.00%)
+Dark Katina Boots Dark Katina Boots x 1 (2.00%)
+Blue Anelin Blue Anelin x 1 (2.00%)
+Green Anelin Green Anelin x 1 (2.00%)
+Dark Anelin Dark Anelin x 1 (2.00%)
+Sword Earrings Sword Earrings x 1 (3.00%)
+Sirius Cape Sirius Cape x 1 (3.00%)
+Blood Dagger Blood Dagger x 1 (2.00%)
+Red Craven Red Craven x 1 (2.00%)
+Gold Double Knife Gold Double Knife x 1 (2.00%)
+Nageling Nageling x 1 (2.00%)
+Crypto Crypto x 1 (2.00%)
+
+2022655 	Dragon Rider's Bowman Box	A box dropped by the Dragon Rider. Contains a Bowman weapon. #cYou can open it by double-clicking on it.
+Red Arnah Cap Red Arnah Cap x 1 (2.00%)
+Blue Arnah Cap Blue Arnah Cap x 1 (2.00%)
+Green Arnah Cap Green Arnah Cap x 1 (2.00%)
+Blue Arzuna (M) Blue Arzuna (M) x 1 (2.00%)
+Red Arzuna (M) Red Arzuna (M) x 1 (2.00%)
+Blue Armis (F) Blue Armis (F) x 1 (2.00%)
+Red Armis (F) Red Armis (F) x 1 (2.00%)
+Red Arnah Shoes Red Arnah Shoes x 1 (2.00%)
+Blue Arnah Shoes Blue Arnah Shoes x 1 (2.00%)
+Green Arnah Shoes Green Arnah Shoes x 1 (2.00%)
+Red Arcina Red Arcina x 1 (2.00%)
+Blue Arcina Blue Arcina x 1 (2.00%)
+Green Arcina Green Arcina x 1 (2.00%)
+Sword Earrings Sword Earrings x 1 (3.00%)
+Sirius Cape Sirius Cape x 1 (3.00%)
+White Nisrock White Nisrock x 1 (1.00%)
+Golden Nisrock Golden Nisrock x 1 (1.00%)
+Dark Nisrock Dark Nisrock x 1 (1.00%)
+White Neschere White Neschere x 1 (1.00%)
+Golden Neschere Golden Neschere x 1 (1.00%)
+Dark Neschere Dark Neschere x 1 (1.00%)
+Barisetter Barisetter x 1 (2.00%)
+Inferna Inferna x 1 (2.00%)
+
+2022656 	Dragon Rider's Pirate Box	A box dropped by the Dragon Rider. Contains a Pirate weapon. #cYou can open it by double-clicking on it.
+
+1002646 - Black Polax Hat Black Polax Hat x 1 (5.88%)
+1052131 - Red Belly Duke Red Belly Duke x 1 (7.84%)
+1072318 - Black Duke Barkin Shoes Black Duke Barkin Shoes x 1 (5.88%)
+1082213 - Black Skellduke Black Skellduke x 1 (5.88%)
+1032030 - Sword Earrings Sword Earrings x 1 (2.94%)
+1482012 - King Cent King Cent x 1 (2.94%)
+1492012 - Concerto Concerto x 1 (2.94%)
+1482051 - Crusio Crusio x 1 (2.94%)
+1492024 - Tempest Tempest x 1 (2.94%)
+
+
+2022570 King Pepe Warrior Weapon Box	King Pepe's box containing a Warrior weapon.
+	1302119 King Pepe Cutlass King Pepe Cutlass x 1 (2.00%)
+	1312045 King Pepe Danker King Pepe Danker x 1 (6.00%)
+	1322073 King Pepe Heavy Hammer King Pepe Heavy Hammer x 1 (2.00%)
+	1402064 King Pepe Highlander King Pepe Highlander x 1 (2.00%)
+	
+	1412042 King Pepe Niam King Pepe Niam x 1 (2.00%)
+	1422045 King Pepe Big Hammer King Pepe Big Hammer x 1 (2.00%)
+	
+	1432057 King Pepe Nakamaki King Pepe Nakamaki x 1 (2.00%)
+	1442082 King Pepe Axe Polearm King Pepe Axe Polearm x 1 (2.00%)
+	
+2022571 King Pepe Magician Weapon Box	King Pepe's box containing a Magician weapon.
+	1372053 King Pepe Wizard Wand King Pepe Wizard Wand x 1 (10.00%)
+	1382070 King Pepe Petal Staff King Pepe Petal Staff x 1 (10.00%)
+
+2022572 King Pepe Bowman Weapon Box		King Pepe's box containing a Bowman weapon.
+	1452073 King Pepe Red Viper King Pepe Red Viper x 1 (10.00%)
+	1462066 King Pepe Eagle Crow King Pepe Eagle Crow x 1 (10.00%)
+	
+2022573 King Pepe Thief Weapon Box		King Pepe's box containing a Thief weapon.
+	1332088 King Pepe Gephart King Pepe Gephart x 1 (10.00%)
+	1472089 King Pepe Dark Guardian King Pepe Dark Guardian x 1 (10.00%)
+
+2022574 King Pepe Pirate Weapon Box		King Pepe's box containing a Pirate weapon.
+	1482037 King Pepe Silver Maiden King Pepe Silver Maiden x 1 (10.00%)
+	1492038 King Pepe Shooting Star King Pepe Shooting Star x 1 (10.00%)
+
+2022575 King Pepe Warrior Armor Box		King Pepe's box containing armor for Warriors.
+	1002990 King Pepe Great Blue Helmet King Pepe Great Blue Helmet x 1 (5.00%)
+	1040145 King Pepe Gold Dragon King Pepe Gold Dragon x 1 (5.00%)
+	1041148 King Pepe Red Shark King Pepe Red Shark x 1 (5.00%)
+	1060134 King Pepe White Martial Arts Shorts King Pepe White Martial Arts Shorts x 1 (5.00%)
+	1061156 King Pepe Red Shark Skirt King Pepe Red Shark Skirt x 1 (5.00%)
+	1072399 King Pepe Dark Walker King Pepe Dark Walker x 1 (5.00%)
+	
+2022576 King Pepe Magician Armor Box	King Pepe's box containing armor for Magicians.
+	1002991 King Pepe Dark Matty King Pepe Dark Matty x 1 (10.00%)
+	1050155 King Pepe White Devil Robe King Pepe White Devil Robe x 1 (5.00%)
+	1051191 King Pepe Red Doroness Robe King Pepe Red Doroness Robe x 1 (5.00%)
+	1072400 King Pepe Black Salt Shoes King Pepe Black Salt Shoes x 1 (10.00%)
+
+2022577 King Pepe Bowman Armor Box		King Pepe's box containing armor for Bowmen.
+	1002992 King Pepe Red Polefeather Hat King Pepe Red Polefeather Hat x 1 (4.00%)
+	1040146 King Pepe Dark Legolier King Pepe Dark Legolier x 1 (4.00%)
+	1041149 King Pepe Brown Legolas King Pepe Brown Legolas x 1 (4.00%)
+	1060135 King Pepe Dark Legolier Pants King Pepe Dark Legolier Pants x 1 (4.00%)
+	1061157 King Pepe Brown Legolia Pants King Pepe Brown Legolia Pants x 1 (4.00%)
+
+2022578 King Pepe Thief Armor Box		King Pepe's box containing armor for Thieves.
+	1002993 King Pepe Dark Burglar King Pepe Dark Burglar x 1 (5.00%)
+	1040147 King Pepe Black Knuckle Vest King Pepe Black Knuckle Vest x 1 (5.00%)
+	1041150 King Pepe Purple Steal King Pepe Purple Steal x 1 (5.00%)
+	1060136 King Pepe Black Knucklevest Pants King Pepe Black Knucklevest Pants x 1 (5.00%)
+	1061158 King Pepe Purple Steal Pants King Pepe Purple Steal Pants x 1 (5.00%)
+	1072402 King Pepe Blue Lined Boots King Pepe Blue Lined Boots x 1 (5.00%)
+
+2022579 King Pepe Pirate Armor Box		King Pepe's box containing armor for Pirates.
+	1002994 King Pepe Blue Denemarine King Pepe Blue Denemarine x 1 (10.00%)
+	1052208 King Pepe Blue Suspenders Look King Pepe Blue Suspenders Look x 1 (10.00%)
+	1072403 King Pepe Brown Pirate Shoes King Pepe Brown Pirate Shoes x 1 (10.00%)
+
+2022580 King Pepe Warrior Box			King Pepe's box containing an equipment item for Warriors.
+2022581 King Pepe Magician Box			King Pepe's box containing an equipment item for Magicians.
+2022582 King Pepe Bowman Box			King Pepe's box containing an equipment item for Bowmen.
+2022583 King Pepe Thief Box				King Pepe's box containing an equipment item for Thieves.
+2022584 King Pepe Pirate Box			King Pepe's box containing an equipment item for Pirates.

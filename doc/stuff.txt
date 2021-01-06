@@ -1,0 +1,121 @@
+Guild BBS
+open guild bbs: [CP_GuildBBS] B3 00 02 00 00 00 00
+
+------------
+
+find npcs around adventurer island that will serve as crafting npcs
+
+item crafting categories
+
+tier one:
+items that drop from mobs
+
+tier two:
+items crafted from a single mob drop input
+
+tier three:
+items crafted from multiple mob drop inputs
+
+tier four:
+items crafted from tier two or three items
+
+tier five:
+items crafted from a mix of simple mob drops and tier 2-3 items
+
+item crafting classifications:
+ - raw item 			<- dropped by mobs
+ - intermediary item 	<- crafted by combining raw items
+ - advanced item 		<- crafted by combining raw and intermediary items
+ - equips / consumables <- crafted by combinations of all the above
+
+TODO:
+
+Bugs:
+cash shop item stacks show as 1 in cash shop locker
+dying in a map makes all the drops disappear
+party buffs are not applied
+there is no required skill validation when upgrading skills
+durability items do not work
+
+5030000 - mushroom house
+5220000 - gachapon ticket
+5451000 - remote gachapon ticket
+5160002 - emote
+5290000 - guild emote
+5300000/1/2 - morph potion
+5510000 - wheel of fortune - revive a player after they die
+5520000 - scissors of karma
+
+Idea:
+item crafting system
+no equips drop from mobs
+equips can only be created by crafting NPCs
+
+ores that drop from all mobs:
+
+TODO items used for crafting:
+4032029 - Duct Tape
+4032030 - Stretchy Material
+4032031 - Lucky Charm
+
+
+Unscripted portals:
+kerning city unscripted subway portal: in00
+
+--
+
+Need before Greed: Party members who are unable to equip the item being rolled are not given the option to "need" roll on it, meaning those that can equip the item have automatic preference on it if they want it. Not as fair as it seems at first glance. Just because you can equip an item does not mean you need it.
+
+Free-for-all: (FFA) First-come, first-serve. You snooze, you lose. This is a good setting if you are assisting someone and intend for them to be able to loot all the kills, or if your party is not in the same area, this setting will prevent meaningless roll prompts. It also makes sense when grouping somewhere that isn't a dungeon, when it's very unlikely a really valuable item will drop.
+
+Game feedback from discord:
+
+a solid server thats not [Old School Maple] shit 1x1x1x
+and has atleast 300+ people
+or enough people to find maple babes and troll
+---
+I don't actually play ms but I'd assume unscripted quests/npcs.
+Like if you're playing, trying to get certain quests completed, and you find an unscripted npc and can't complete a quest, it's immersion breaking.
+Just my opinion
+---
+people like fast paced gameplay
+faster spawn rate, higher mob density, lots of drops (can be slow progression, but more drops), nx from mobs
+as well as easy methods to upgrade gear and far endgame
+keys to server success
+[redacted]'s servers had all of this and fwif they all had 1000+ online users and racked in the most money, for a reason
+issue with his game design is that theres not much to do after endgame so peopole quit
+and market gets inflated too quickly
+meso/nx sink
+whatever the inflated currency is, just needs a sink
+and make sure the higher end players cannot farm ridiculous amounts compared to midgame
+for [redacted]'s servers he could've made cubing require meso rather than making it so reaching level 100 on insight trait makes cubing only require cubes
+for my server i have a nice meso sink to add a week after official launch
+one of the sinks i have is the 4th job skip scroll costing 75m rather than 10m
+
+Own ideas:
+Exclusive server, invite-only <- this would only work with a server that actually has something to offer that is unique
+Staff members have unlimited invites
+
+Advanced Fishing Economy System:
+there are many spots to fish
+there are afk-safe and afk un-safe spots to fish
+afk un-safe spots will once in a while spawn a demi-boss (or maybe pianus?)
+fish are sold to an npc for coins
+the coin value of a fish depends on the amount of a particular fish that has been sold to the npc over a given period
+coins can be used to purchase rare items from another npc
+
+MLM Donation Referral System:
+players can enter a referral when they create an account or add a referral through an in game command
+players get 5% increase in donor/vote points for each referral up to 100%, then 2.5% up to 200%, then 1% after that
+players must enter a referral before being allowed to donate/vote
+when a player donates/votes, 10% of their points are also sent to their referrer
+
+Upgraded User Account:
+Access to special features (TBD)
+Can be purhcased with vote points or donor points
+All users have this for free during the first weekend of each month
+
+Bonus Rate Events:
+Get x votes in 24 hours and trigger a 24 hour double exp event.
+Amount will be calculated based on total number of votes for the past 30 days.
+Amount is recalculated every Monday

@@ -1,0 +1,1 @@
+ctx.Warp(922240100 + (ctx.PlayerMapId - 922240000))

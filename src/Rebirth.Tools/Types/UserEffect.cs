@@ -1,0 +1,72 @@
+﻿namespace Rebirth.Common.Types
+{
+    public enum UserEffect : byte
+    {
+        // UserEffect_LevelUp = 0
+        // UserEffect_SkillUse = 1
+        // UserEffect_SkillAffected = 2
+        // UserEffect_SkillAffected_Select = 3
+        // UserEffect_SkillSpecialAffected = 4
+        // UserEffect_Quest = 5
+        // UserEffect_Pet = 6
+        // UserEffect_SkillSpecial = 7
+        // UserEffect_ProtectOnDieItemUse = 8
+        // UserEffect_PlayPortalSE = 9
+        // UserEffect_JobChanged = 0Ah
+        // UserEffect_QuestComplete = 0Bh
+        // UserEffect_IncDecHPEffect = 0Ch
+        // UserEffect_BuffItemEffect = 0Dh
+        // UserEffect_SquibEffect = 0Eh
+        // UserEffect_MonsterBookCardGet = 0Fh
+        // UserEffect_LotteryUse = 10h
+        // UserEffect_ItemLevelUp = 11h
+        // UserEffect_ItemMaker = 12h
+        // UserEffect_ExpItemConsumed = 13h
+        // UserEffect_ReservedEffect = 14h
+        // UserEffect_Buff = 15h
+        // UserEffect_ConsumeEffect = 16h
+        // UserEffect_UpgradeTombItemUse = 17h
+        // UserEffect_BattlefieldItemUse = 18h
+        // UserEffect_AvatarOriented = 19h
+        // UserEffect_IncubatorUse = 1Ah
+        // UserEffect_PlaySoundWithMuteBGM = 1Bh
+        // UserEffect_SoulStoneUse = 1Ch
+        // UserEffect_IncDecHPEffect_EX = 1Dh
+        // UserEffect_DeliveryQuestItemUse = 1Eh
+        // UserEffect_RepeatEffectRemove = 1Fh
+        // UserEffect_EvolRing = 20h
+        LevelUp = 0,
+        SkillUse = 1,
+        SkillAffected = 2,
+        SkillAffectedSelect = 3,
+        SkillAffectedSpecial = 4,
+        Quest = 5,
+        PetShowEffect = 6,
+        ShowSkillSpecialEffect = 7,
+        ProtectOnDieItemUse = 8,
+        PortalSoundEffect = 9,
+        JobChanged = 10, 
+        QuestComplete = 11,
+        IncDecHPEffect = 12,
+        BuffItemEffect = 13,
+        SquibEffect = 14,
+        MonsterBookCard = 15,
+        LotteryUse = 16,
+        ItemLevelUp = 17,
+        ItemMaker = 18,
+        ExpItemConsumed = 19, 
+        ReservedEffect = 0x14,
+        Buff = 21,
+        ConsumeEffect = 22,
+        UpgradeTombItemUse = 23, 
+        BattlefieldItemUse = 24, 
+        AvatarOriented = 25, 
+        IncubatorUse = 26, 
+        PlaySoundWithMuteBgm = 27,
+        SoulStoneUse = 28, // spirit stone use notification
+        MakeIncDecHPEffect = 29,
+        DeliveryQuestItemUse = 30,
+        RepeatEffectRemove = 31,
+        EvolRing = 32 // gives "gained upgrade potion for playing an hour" notification
+    }
+}

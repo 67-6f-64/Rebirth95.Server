@@ -1,0 +1,20 @@
+{
+	"mainfilepath": "C:\\Users\\Administrator\\source\\repos\\Rebirth95",
+	"redis": "localhost",
+	
+	"world0_host": "127.0.0.1",
+	"world0_port": "5432",
+	"world0_username": "postgres",
+	"world0_password": "postgres",
+	"world0_database": "rebirth_world0",
+	"world0_schema": "rebirth",
+	
+	"global_host": "127.0.0.1",
+	"global_port": "5432",
+	"global_username": "postgres",
+	"global_password": "postgres",
+	"global_database": "rebirth_global",
+	"global_schema": "rebirth",
+	
+	"channels": 3
+}

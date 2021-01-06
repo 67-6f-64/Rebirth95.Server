@@ -1,0 +1,8 @@
+01132000 - White Belt
+01132001 - Yellow Belt
+01132002 - Blue Belt
+01132003 - Red Belt
+01132004 - Black Belt
+
+01142026 - Mu Lung Donor (Medal)
+01142064 - Mu Lung Dojo Vanquisher (Medal)

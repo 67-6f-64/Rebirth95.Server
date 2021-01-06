@@ -1,0 +1,36 @@
+﻿namespace Rebirth.Common.Types
+{
+    public enum DragonAct
+    {
+        STAND = 0x0,
+        MOVE = 0x1,
+        SHOOT1 = 0x2,
+        MAGICMISSILE = 0x3,
+        LIGHTING_BOLT = 0x4,
+        ICE_BREATHE = 0x5,
+        BREATHE = 0x6,
+        ICE_BREATHE_PREPARE = 0x7,
+        BREATHE_PREPARE = 0x8,
+        BLAZE = 0x9,
+        FIRE_CIRCLE = 0xA,
+        ILLUSION = 0xB,
+        MAGICFLARE = 0xC,
+        ELEMENTAL_RESET = 0xD,
+        MAGIC_REGISTANCE = 0xE,
+        RECOVERY_AURA = 0xF,
+        MAGIC_BOOSTER = 0x10,
+        MAGIC_SHIELD = 0x11,
+        FLAME_WHEEL = 0x12,
+        KILLING_WING = 0x13,
+        ONIX_BLESSING = 0x14,
+        EARTHQUAKE = 0x15,
+        SOULSTONE = 0x16,
+        DRAGONTHRUST = 0x17,
+        GHOST_LETTERING = 0x18,
+        DARKFOG = 0x19,
+        SLOW = 0x1A,
+        MAPLE_HERO = 0x1B,
+        AWAKENING = 0x1C,
+        NO = 0x1D,
+    }
+}

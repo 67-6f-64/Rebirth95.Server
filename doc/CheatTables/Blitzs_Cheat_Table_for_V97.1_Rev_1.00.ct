@@ -1,0 +1,998 @@
+<?xml version="1.0"?>
+<CheatTable CheatEngineTableVersion="12">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"Show Hidden Item Potential*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+008CA27E:
+db 90 90 90 90 90 90
+
+[Disable]
+008CA27E: // 0F 84 ? ? ? ? 8B 46 ? 50 83 C6 ? 56 E8 ? ? ? FF 8B
+db 0F 84 8A 00 00 00
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"Show Rank*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+008CA7BE:
+db 90 90 90 90 90 90
+
+[Disable]
+008CA7BE: // 0F 84 ? 00 00 00 8B ? ? 8B ? ? ? ? ? 8B ? FF
+db 0F 84 9F 00 00 00
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"Pet Equipment Hack*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+0050AFE2:
+db 90
+
+0050AFE8:
+db E8 53 FA
+
+[Disable]
+0050AFE2: // 50 8B ? ? 56 50 E8 ? ? ? 00 B8 ? 00 00 00
+db 50
+
+0050AFE8: //  E8 ? ? ? 00 B8 ? 00 00 00 E9 ? ? 00 00 8B ? E8
+db E8 83 FB
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"SP Control*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+alloc(sp_control,64)
+label(sp_control_ret)
+alloc(do_sp_control,64)
+
+registersymbol(spawn_x)
+alloc(spawn_x,8)
+registersymbol(spawn_y)
+alloc(spawn_y,8)
+registersymbol(save)
+alloc(save, 2)
+
+spawn_x:
+dd 00000000
+
+spawn_y:
+dd 00000000
+
+save:
+db 01
+
+00942655:
+jmp sp_control
+nop
+sp_control_ret:
+
+sp_control:
+cmp [save], 01
+jne do_sp_control
+push eax
+mov eax, [00CB6BDC] // Char Base
+mov ebx, [eax+46FC] // X Offset
+mov [spawn_x], ebx
+mov ebx, [eax+4700] // Y Offset
+mov [spawn_y], ebx
+pop eax
+mov [save], 00
+jmp do_sp_control
+
+do_sp_control:
+mov ebx, [spawn_x]
+mov ecx, [spawn_y]
+jmp sp_control_ret
+
+[Disable]
+00942655: // 8B ? ? 8B ? ? 89 ? ? ? 83 ? ? 00
+db 8B 58 0C 8B 48 10
+
+dealloc(spawn_x)
+dealloc(spawn_y)
+dealloc(save)
+dealloc(sp_control)
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>5</ID>
+      <Description>"No Skill Movement*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+0075CFBF: // D8 D1 DF E0 ? C4 05 7A ? DC 91 ? ? 00 00 DF
+db D8 D2
+
+[Disable]
+0075CFBF:
+db D8 D1
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>6</ID>
+      <Description>"Stop Aran Attack Movement*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+0092E51F: // 01 00 00 00 E8 ? ? ? ? 8D 8E ? ? ? ? 5E E9
+db 00
+
+[Disable]
+0092E51F:
+db 01
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>7</ID>
+      <Description>"Tornado Buff*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+00928A68:
+db 74 07
+
+[Disable]
+00928A68: // 75 ? 8B ? E8 ? ? ? ? 8B ? ? ? ? ? 51 81
+db 75 07
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>8</ID>
+      <Description>"Slow Mobs*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+00674261:
+db B8 00 00 00 00
+
+[Disable]
+00674261: // B8 ? ? ? ? 39 ? ? 7C ? 85 ? 75 ? 39
+db B8 E8 03 00 00
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>9</ID>
+      <Description>"Remove Loot Animation*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+00441B19:
+db 81 FE 00 00 00 00
+
+[Disable]
+00441B19: // 81 ? ? ? 00 00 0F 8D ? ? 00 00 85 ? 0F 84
+db 81 FE BC 02 00 00
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>10</ID>
+      <Description>"Endless Flamethrower *WILL UPDATE IF REQUESTED*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+009659D9:
+db 89 86 E0
+
+[Disable]
+009659D9: // 89 86 DC ? 00 00 8B ? ? ? 64
+db 89 86 E4
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>11</ID>
+      <Description>"Fast Teleport*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+0095C93F:
+db 90 90 90 90 90
+
+[Disable]
+0095C93F: // 05 ? ? 00 00 89 9E ? ? 00 00
+db 05 58 02 00 00
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>12</ID>
+      <Description>"All Mob KB*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+00662022:
+db 75
+
+[Disable]
+00662022: // 74 ? 8B CE E8 ? ? ? ? 85 C0 75 ? 8B CE E8 ? ? ? FF 8B
+db 74
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>13</ID>
+      <Description>"Lemmings*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+009C8111: // Left
+db 0f 84
+
+009C809D: // Right
+db 0f 84
+
+[Disable]
+009C8111: // 0F 85 ? ? 00 00 8B ? ? 50 57 E8 ? ? ? ? DD
+db 0f 85
+
+009C809D: // 0F 85 ? ? 00 00 8B ? ? ? 00 00 D8
+db 0f 85
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>14</ID>
+      <Description>"Anti Breath*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+0046CC72:
+db 7C
+
+[Disable]
+0046CC72: // 7D ? 8B ? ? ? 00 00 8B D0 83 E2 ? 89
+db 7D
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>15</ID>
+      <Description>"Unlimited Attack*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+0092B910:
+db EB
+
+[Disable]
+0092B910: // 7E ? 83 ? ? 7D ? 8B
+db 7E
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>17</ID>
+      <Description>"No Player KB*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+0075CFBB:
+db 00
+
+[Disable]
+0075CFBB: // 01 00 00 00 D8 ? DF ? F6
+db 01
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>18</ID>
+      <Description>"CS Mob Lag*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+0067524A:
+db B8 00
+
+[Disable]
+0067524A: // B8 01 00 00 00 5F 5E 5B 8B E5 5D C2
+db B8 01
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>19</ID>
+      <Description>"SS Mob Lag*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+009BC1C3:
+db B8 00
+
+[Disable]
+009BC1C3: // B8 01 00 00 00 5E C3 CC CC CC CC CC CC 56
+db B8 01
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>20</ID>
+      <Description>"All Jump*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+009BFCE4:
+db 75
+
+[Disable]
+009BFCE4: // 74 ? E8 ? FF FF FF 83 ? ? ? 00 00 ? 74
+db 74
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>22</ID>
+      <Description>"Full Godmode*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+0095E51C:
+db 0F 84
+
+[Disable]
+0095E51C: // 0F 85 ? ? 00 00 8B 86 ? ? 00 00 83 E0 ? 83 F8 ? 0F 84 ? ? 00 00 8B ? 8B
+db 0F 85
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>23</ID>
+      <Description>"Blink Godmode"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+009265A0:
+db 83 CE
+
+00926595:
+db EB 09
+
+[Disable]
+009265A0: // 83 ? 1E ? 8B ? E8 ? ? ? FF 85 ? 7D
+db 83 EE
+
+00926595: // 7E ? 8B ? E8 ? ? ? FF 8B ? 83
+db 7E 21
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>24</ID>
+      <Description>"Miss Godmode*"</Description>
+      <Color>FF0000</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+0095E757:
+db 0F 85
+
+[Disable]
+0095E757: // 0F 84 ? ? 00 00 8B 51 ? 8B 52 ? 83 C1 ? 8D 44 24 ? 50 89
+db 0F 84
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>25</ID>
+      <Description>"Block Damage Godmode"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[enable]
+009608A4:
+db 0F 85
+
+[disable]
+009608A4: // 0F 84 ? ? ? ? 6A ? 8D ? ? ? E8 ? ? ? ? C6
+db 0F 84
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>26</ID>
+      <Description>"CS Mouse Fly*"</Description>
+      <Color>FF0000</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+Alloc(addyy,100)
+Alloc(addxx,100)
+Label(goyy)
+Label(goxx)
+label(regy)
+label(regx)
+
+addyy:
+push ecx
+mov ecx,[00CB6BDC] // Char Base
+mov ecx,[ecx+1948] // Char PID
+cmp esi,ecx
+pop ecx
+jne regy
+mov eax,[00CB70A8] // Mouse Base
+mov eax,[eax+978] // Mouse Location
+mov eax,[eax+88] // Mouse Y
+
+regy:
+mov [edi],eax
+mov ebx,[ebp+14]
+jmp goyy
+
+addxx:
+push ecx
+mov ecx,[00CB6BDC] // Char Related
+mov ecx,[ecx+1948] // Char PID
+cmp esi,ecx
+pop ecx
+jne regx
+mov eax,[00CB70A8] // Mouse Base
+mov eax,[eax+978] // Mouse Location
+mov eax,[eax+8C] // Mouse X
+
+regx:
+mov [ebx],eax
+mov edi,[ebp+10]
+jmp goxx
+
+009C1415:
+jmp addyy //CSEAX-Y
+goyy:
+
+009C13A8:
+jmp addxx //CSEAX-X
+goxx:
+
+[Disable]
+009C1415: // 89 ? 8B ? ? 85 ? 74 ? 8B ? ? 00 00 00 8D
+mov [edi],eax
+mov ebx,[ebp+14]
+
+009C13A8: // 89 ? 8B ? ? 85 ? 74 ? 8B ? ? 00 00 00 51
+mov [ebx],eax
+mov edi,[ebp+10]
+
+Dealloc(addyy)
+Dealloc(addxx)
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>27</ID>
+      <Description>"Moon Jump*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+009BC87D:
+db 74
+
+[Disable]
+009BC87D: // 75 ? 83 ? ? 8D ? ? DD ? ? E8 ? ? ? ? D9
+db 75
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>28</ID>
+      <Description>"Sit Hack*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+00930A87:
+db 75
+
+[Disable]
+00930A87: // 74 ? 8B ? ? ? 83 ? ? 83 ? ? EB ? 83
+db 74
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>29</ID>
+      <Description>"Map Speed Up*"</Description>
+      <Color>FF0000</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+009BE6ED:
+db 70
+
+[Disable]
+009BE6ED: // 08 ? 8C ? ? 00 00 00 ? ? ? ? ? 5C
+db 08
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>30</ID>
+      <Description>"CS Dark Sight*?*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+009644BE:
+db 74
+
+[Disable]
+009644BE: // 75 ? 8B ? ? 8B ? ? 8B ? ? ? 8B ? ? ? 00
+db 75
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>31</ID>
+      <Description>"Show PIC*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+004E7E4F:
+db 0F 85
+
+[Disable]
+004E7E4F: // 0F 84 BC ? ? ? 8B ? ? ? 3B ? 0F 84 ? ? ? ?
+db 0F 84
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>32</ID>
+      <Description>"Hide Mob HP Bar*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+0066223A:
+db 01
+
+[Disable]
+0066223A: // 00 0F 85 ? ? 00 00 33 ? 89 ? ? 89 ? ? E8
+db 00
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>33</ID>
+      <Description>"Invisible Mobs*?*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+00977BC2:
+db 0F 85
+
+[Disable]
+00977BC2: // 0F 84 ? ? 00 00 EB ? 8D ? 00 00 00 00 8D ? ? ? 52
+db 0F 84
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>34</ID>
+      <Description>"Raining Mobs*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+00673DE6:
+db D9 C1
+
+[Disable]
+00673DE6: // D9 C0 D8 C9 D9 C0
+db D9 C0
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>35</ID>
+      <Description>"Disable Platform Movements*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+009BE6F2:
+add [eax],eax
+
+[Disable]
+009BE6F2: // 00 00 00 ? ? ? ? ? 5C 24 ? E8 ? ? ? FF 85 ? 74
+add [eax],al
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>36</ID>
+      <Description>"Mob Hit Flash*?*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+006621F0:
+jne 0066222E
+
+[Disable]
+006621F0: // 74 ? 39 ? ? ? 00 00 74 ? 8B ? E8 ? ? ? FF 85
+je 0066222E
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>37</ID>
+      <Description>"Damage Control*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+Alloc(Damage_Control,64)
+Label(Return_Here)
+
+0095FBDA:
+jmp Damage_Control
+nop
+nop
+
+Return_Here:
+Damage_Control:
+mov [esp+000000CC],00 //...,"00" = damage (Miss) (Change "00" to "01" = 1 Damage)
+jmp Return_Here
+
+[Disable]
+0095FBDA: //8B 9C ?? ?? ?? ?? ?? 85 DB 7F 15
+mov ebx,[esp+000000CC]
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>38</ID>
+      <Description>"Cool Hit Effects*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+0095F99B:
+db 83 7C 24 74 01
+
+[Disable]
+0095F99B://83 7C ?? ?? ?? 74 25 8B 0D
+db 83 7C 24 74 00
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>39</ID>
+      <Description>"Disable Skill KB*?*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+0075CFBF:
+db D8 D2
+
+[Disable]
+0075CFBF://D8 D1 DF E0 F6 ?? ?? 7A 28
+db D8 D1
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>40</ID>
+      <Description>"Disable Skills KB (Right)*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+0075CFF7:
+db 75
+
+[Disable]
+0075CFF7: //75 32 DC ?? ?? ?? ?? ?? DF E0
+db 74
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>41</ID>
+      <Description>"Left Push Vac*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+009BDED3:
+db 00
+
+[Disable]
+009BDED3: // 01 00 00 00 E8 ? ? ? FF DD ? ? ? 8B
+db 01
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>42</ID>
+      <Description>"Right Push Vac*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+009BDF2D:
+db 01
+
+[Disable]
+009BDF2D: // 00 00 00 00 E8 ? ? ? FF DD ? ? ? 8B
+db 00
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>43</ID>
+      <Description>"Left Force Vac*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+009BC98F:
+db 0F 84
+
+[Disable]
+009BC98F: // 0F 85 ? 00 00 00 8B ? ? ? 00 00 DD
+db 0F 85
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>44</ID>
+      <Description>"Right Force Vac*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+009BCA37:
+db 0C
+
+[Disable]
+009BCA37: // 2C ? D9 ? E0 ? C4 ? ? ? ? 00 00 00 8B ? ? ? 00 00 2B
+db 2C
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>45</ID>
+      <Description>"Left Force Vac (Mob Only)*?*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+009BDEC5:
+db 90 90
+
+[Disable]
+009BDEC5: // 7A ? 8B ? ? 8B 46 ? 50 56 C7
+db 7A 4D
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>46</ID>
+      <Description>"CS Origin Vac*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+009C13AF: // Horizontal
+db 75
+009C1348: // Vertical
+db 75
+
+[Disable]
+009C13AF: // 74 ? 8B ? ? 00 00 00 51 8D ? ? 00 00 00 52 E8 ? ? ? FF DD
+db 74
+
+009C1348: // 74 ? 8B ? ? 00 00 00 8D ? ? 51
+db 74
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>47</ID>
+      <Description>"CSEAX Vac*"</Description>
+      <Color>FF0000</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[enable]
+alloc(VacX,512)
+label(VacY)
+label(ReturnX)
+label(ReturnY)
+label(NormalX)
+label(NormalY)
+
+VacX:
+push ecx
+mov ecx,[00CB6BDC] // Char Base
+mov ecx,[ecx+1948] // Char pID
+
+cmp ecx,esi
+pop ecx
+je NormalX
+
+mov eax,[00CB72C8] // Info Base
+mov eax,[eax+B48] // CharXOffset
+add eax,0 // X value in pixels away from the character.
+
+NormalX:
+mov [ebx],eax
+mov edi,[ebp+10]
+jmp ReturnX
+
+VacY:
+push ecx
+mov ecx,[00CB6BDC] // Char Base
+mov ecx,[ecx+1948] // Char pID
+
+cmp ecx,esi
+pop ecx
+je NormalY
+
+mov eax,[00CB72C8] // Info Base
+mov eax,[eax+B4C] // CharYOffset
+add eax,0 // Y value in pixels away from the character.
+
+NormalY:
+mov [edi],eax
+mov ebx,[ebp+14]
+jmp ReturnY
+
+009C13A8:
+jmp VacX
+ReturnX:
+
+009C1415:
+jmp VacY
+ReturnY:
+
+[disable]
+009C13A8: // 89 ? 8B ? ? 85 ? 74 ? 8B ? ? 00 00 00 51
+mov [ebx],eax
+mov edi,[ebp+10]
+
+009C1415: // 89 ? 8B ? ? 85 ? 74 ? 8B ? ? 00 00 00 8D
+mov [edi],eax
+mov ebx,[ebp+14]
+
+dealloc(VacX)
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>48</ID>
+      <Description>"DupeX*"</Description>
+      <Color>FF0000</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+alloc(DupeX,50)
+alloc(platform,4)
+registersymbol(platform)
+label(finish)
+label(end)
+
+platform:
+dd 0
+
+DupeX:
+test [platform],FFFFFFFF // //Unrandomize Platform, you can edit if you want.
+jnz finish
+mov [platform],edi
+finish:
+mov edi,[platform]
+mov [esi+000001A4],edi
+jmp end
+
+009BE270:
+jmp DupeX
+nop
+end:
+
+[Disable]
+009BE270: // 89 BE ? ? ? ? 89 8E ? ? ? ? 8B 86 ? ? ? ? 3B C1 74 5B
+mov [esi+000001A4],edi
+//alt db 89 BE A4 01 00 00
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>49</ID>
+      <Description>"Char pVac"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[enable]
+alloc(PrevNext,200)
+alloc(CharX,4)
+label(SaveCharX)
+label(Prev)
+label(Next)
+label(EndPVac)
+
+0099C6B3:
+jmp PrevNext
+db 90
+PrevNext:
+mov ecx,[ebx+000001a0]
+cmp dword ptr [CharX],00
+je SaveCharX
+push eax
+push edx
+mov edx,[CharX]
+mov eax,[ecx+24]
+cmp eax,edx
+jg Next
+jnge Prev
+
+EndPVac:
+pop edx
+pop eax
+jmp 009C80A9 //D8 D1 DF E0 F6 C4 ? 7A ? 8b 41 ? EB ? 8B 41 ? 85 C0 74 ? DC 50 ? DF E0
+
+SaveCharX:
+push edx
+mov edx,[00c6A754]
+mov edx,[edx+00004680]
+mov [CharX],edx
+pop edx
+jmp 009C80A9 //D8 D1 DF E0 F6 C4 ? 7A ? 8b 41 ? EB ? 8B 41 ? 85 C0 74 ? DC 50 ? DF E0
+
+Next:
+mov [ecx+68],00
+jmp EndPVac
+
+Prev:
+mov [ecx+64],00
+jmp EndPVac
+
+[disable]
+009C80A9: //8B 8B ? ? ? ? D8 D1 DF E0 F6 C4 ? 7A ? 8B 41 ? EB ? 8B 41 ? 85 C0
+db 8B 8B A0 01 00 00
+dealloc(PrevNext)
+dealloc(CharX)
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>50</ID>
+      <Description>"Left pVac (Next)"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+alloc(Pvac,200)
+
+0099C713:
+jmp Pvac
+nop
+
+Pvac:
+mov ecx,[ebx+000001a0]
+mov [ecx+68],00
+jmp 009C85E9 //D8 D1 DF E0 F6 C4 ? 7A ? 8b 41 ? EB ? 8B 41 ? 85 C0 74 ? DC 50 ? DF E0
+
+[DISABLE]
+dealloc(Pvac)
+009C85E3:  //8B 8B ? ? ? ? D8 D1 DF E0 F6 C4 ? 7A ? 8B 41 ? EB ? 8B 41 ? 85 C0
+mov ecx,[ebx+000001a0]
+//Alt: db 8B 8B A0 01 00 00
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>51</ID>
+      <Description>"Right pVac (Prev)"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+alloc(Pvac,200)
+
+0099C713:
+jmp Pvac
+nop
+
+Pvac:
+mov ecx,[ebx+000001a0]
+mov [ecx+64],00
+jmp 009C85E9 //D8 D1 DF E0 F6 C4 ? 7A ? 8b 41 ? EB ? 8B 41 ? 85 C0 74 ? DC 50 ? DF E0
+
+[DISABLE]
+dealloc(Pvac)
+
+009C85E3:  //8B 8B ? ? ? ? D8 D1 DF E0 F6 C4 ? 7A ? 8B 41 ? EB ? 8B 41 ? 85 C0
+mov ecx,[ebx+000001a0]
+//Alt: db 8B 8B A0 01 00 00
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>52</ID>
+      <Description>"No Blink*"</Description>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[Enable]
+009265A0:
+db 83 CE
+
+00926595:
+db EB 09
+
+[Disable]
+009265A0: // 83 ? 1E ? 8B ? E8 ? ? ? FF 85 ? 7D
+db 83 EE
+
+00926595: // 7E ? 8B ? E8 ? ? ? FF 8B ? 83
+db 7E 21
+</AssemblerScript>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols>
+    <SymbolEntry>
+      <Name>spawn_x</Name>
+      <Address>39B40080</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>spawn_y</Name>
+      <Address>39B40088</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>save</Name>
+      <Address>39B40090</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>platform</Name>
+      <Address>01BB0032</Address>
+    </SymbolEntry>
+  </UserdefinedSymbols>
+</CheatTable>
